@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.acttime.projectandcustomerTest.ProjectAndCustomerTest">
+        <methods>
+          <include name="createCustomerTest"/>
+          <include name="configAfterMtd"/>
+          <include name="configAfterClass"/>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- com.acttime.projectandcustomerTest.ProjectAndCustomerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
